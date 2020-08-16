@@ -1,8 +1,15 @@
+seen = {}
+
 def intersection(arrays):
     """
     YOUR CODE HERE
     """
     # Your code here
+    result = []
+
+    for l in arrays:
+        for n in l:
+            print(result)
 
     return result
 
